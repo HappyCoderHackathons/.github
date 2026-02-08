@@ -1,4 +1,4 @@
-# HacKSU Happy Coders
+# Happy Coders Hackathons
 
 ## Spiral
 Tartan 2026
