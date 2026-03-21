@@ -2,6 +2,7 @@
 
 | Project | Hackathon |
 |:-|-:|
+| Spar | FalconHacks with MongoDB 2026 |
 | Trially | RocketHacks 2026 |
 | Spiral | TartanHacks 2026 |
 | AutoFlow-AI | FalconHacks with Google Gemini 2026 |
