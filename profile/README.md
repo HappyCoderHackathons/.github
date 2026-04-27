@@ -2,6 +2,7 @@
 
 | Project | Hackathon |
 |:-|-:|
+| CavePaint.NET | Kent Hack Enough 2026 |
 | Spar | FalconHacks with MongoDB 2026 |
 | Trially | RocketHacks 2026 |
 | Spiral | TartanHacks 2026 |
