@@ -1,18 +1,19 @@
-# Happy Coders Hackathons
+# Happy Coders Portfolio
 
-| Project | Hackathon |
-|:-|-:|
-| Money Mirror | Steelhacks XII 2026 |
-| Holotrace | Steelhacks XII 2026 |
-| CavePaint.NET | Kent Hack Enough 2026 |
-| Spar | FalconHacks with MongoDB 2026 |
-| Trially | RocketHacks 2026 |
-| Spiral | TartanHacks 2026 |
-| AutoFlow-AI | FalconHacks with Google Gemini 2026 |
-| narr0w | NexHacks 2026 |
-| BluQ | HackDearborn 4 2025 |
-| Prismo | HackOHI/O 2025 |
-| T3ChatClone | T3 Chat Cloneathon 2025 |
-| EduSynapse | Kent Hack Enough 2025 |
-| Snap and Serve | HackDearborn 3 2024 |
-| Project Green | Kent Hack Enough 2024 |
+| Project | Hackathon | Date | Team Members | Winning Tracks |
+|:-:|:-|:-:|:-|:-|
+| Money Mirror | [SteelHacks XIII 2026](https://devpost.com/software/pittmoney) | Sep 19–20, 2026 | [AndrewRoddy](https://github.com/AndrewRoddy) &nbsp;•&nbsp; [Goatmanwaffles](https://github.com/Goatmanwaffles) &nbsp;•&nbsp; [Monster0506](https://github.com/Monster0506) &nbsp;•&nbsp; [Sumedh-Joshi](https://github.com/Sumedh-Joshi) | • Xtract |
+| [Holotrace](https://github.com/HappyCoderHackathons/holotrace) | [SteelHacks XIII 2026](https://devpost.com/software/holotrace) | Sep 19–20, 2026 | [EnderHubris](https://github.com/EnderHubris) &nbsp;•&nbsp; [IanRohrbacher](https://github.com/IanRohrbacher) &nbsp;•&nbsp; [moonshadow2](https://github.com/moonshadow2) &nbsp;•&nbsp; [YoyoJesus](https://github.com/YoyoJesus) ||
+| [CavePaint.NET](https://github.com/HappyCoderHackathons/cavepaint.net) | [Kent Hack Enough 2026](https://devpost.com/software/cavepaint-net) | Mar 28–29, 2026 | [CalebStanberry](https://github.com/CalebStanberry) &nbsp;•&nbsp; [Goatmanwaffles](https://github.com/Goatmanwaffles) &nbsp;•&nbsp; [Monster0506](https://github.com/Monster0506) &nbsp;•&nbsp; [sterlingtorrington](https://github.com/sterlingtorrington) | • 1st Overall <br> • Best Use of MongoDB Atlas |
+| [Spar](https://github.com/HappyCoderHackathons/spar) | [FalconHacks with MongoDB 2026](https://devpost.com/software/spar-9xv1z5) | Mar 21, 2026 | [AndrewRoddy](https://github.com/AndrewRoddy) &nbsp;•&nbsp; [Monster0506](https://github.com/Monster0506) ||
+| [Trially](https://github.com/HappyCoderHackathons/Trially) | [RocketHacks 2026](https://devpost.com/software/trially) | Mar 14–15, 2026 | [Goatmanwaffles](https://github.com/Goatmanwaffles) &nbsp;•&nbsp; [Monster0506](https://github.com/Monster0506) &nbsp;•&nbsp; [moonshadow2](https://github.com/moonshadow2) &nbsp;•&nbsp; [Sumedh-Joshi](https://github.com/Sumedh-Joshi) ||
+| [Spiral](https://github.com/HappyCoderHackathons/spiral) | TartanHacks 2026 | Feb 6–7, 2026 | [AndrewRoddy](https://github.com/AndrewRoddy) &nbsp;•&nbsp; [IanRohrbacher](https://github.com/IanRohrbacher) &nbsp;•&nbsp; [masonbair](https://github.com/masonbair) &nbsp;•&nbsp; [Monster0506](https://github.com/Monster0506) ||
+| [AutoFlow-AI](https://github.com/HappyCoderHackathons/autoflow-AI) | [FalconHacks with Google Gemini](https://devpost.com/software/autoflow-ai-06ilsw) | Jan 24, 2026 | [Monster0506](https://github.com/Monster0506) ||
+| [narr0w](https://github.com/HappyCoderHackathons/narr0w) | [NexHacks](https://devpost.com/software/triage-flow) | Jan 17–18, 2026 | [AndrewRoddy](https://github.com/AndrewRoddy) &nbsp;•&nbsp; [masonbair](https://github.com/masonbair) &nbsp;•&nbsp; [Monster0506](https://github.com/Monster0506) &nbsp;•&nbsp; [YoyoJesus](https://github.com/YoyoJesus) | • Innovative Application <br> • DevSwarm |
+| [Prismo](https://github.com/HappyCoderHackathons/prismo) | [HackOHI/O 2025](https://hack.osu.edu/2025) | Oct 25–26, 2025 | [AndrewRoddy](https://github.com/AndrewRoddy) &nbsp;•&nbsp; [loveconnor](https://github.com/loveconnor) &nbsp;•&nbsp; [masonbair](https://github.com/masonbair) &nbsp;•&nbsp; [Monster0506](https://github.com/Monster0506) ||
+| [BluQ](https://github.com/HappyCoderHackathons/BluQ) | [HackDearborn: Escape Reality](https://devpost.com/software/bluq) | Oct 11–12, 2025 | [EnderHubris](https://github.com/EnderHubris) &nbsp;•&nbsp; [IanRohrbacher](https://github.com/IanRohrbacher) &nbsp;•&nbsp; [masonbair](https://github.com/masonbair) &nbsp;•&nbsp; [YoyoJesus](https://github.com/YoyoJesus) | • 1st Overall |
+| [T3ChatClone](https://github.com/HappyCoderHackathons/t3chatclone) | [T3 Chat Cloneathon 2025](https://cloneathon.t3.chat/) | Jun 2025 | [loveconnor](https://github.com/loveconnor) &nbsp;•&nbsp; [Monster0506](https://github.com/Monster0506) ||
+| [ASL Translate](https://github.com/ASL-Translate/aslTranslate) | [Kent Hack Enough 2025](https://devpost.com/software/asl-translator-6shtz4) | Feb 15–16, 2025 | [Benams5211](https://github.com/Benams5211) &nbsp;•&nbsp; [IanRohrbacher](https://github.com/IanRohrbacher) &nbsp;•&nbsp; [ManOfNeptune27](https://github.com/ManOfNeptune27) &nbsp;•&nbsp; [mileskeffer](https://github.com/mileskeffer) | • 1st Overall |
+| [EduSynapse](https://github.com/HappyCoderHackathons/edusynapse) | [Kent Hack Enough 2025](https://devpost.com/software/edusynapse) | Feb 15–16, 2025 | [loveconnor](https://github.com/loveconnor) &nbsp;•&nbsp; [Monster0506](https://github.com/Monster0506) | • 3rd Overall |
+| [Snap and Serve](https://github.com/HappyCoderHackathons/HackDearborn2024) | [HackDearborn: Rewind Reality](https://devpost.com/software/foodscanner) | Oct 12–13, 2024 | [emoudi1242](https://github.com/emoudi1242) &nbsp;•&nbsp; [Ollena5](https://github.com/Ollena5) &nbsp;•&nbsp; [YoyoJesus](https://github.com/YoyoJesus) &nbsp;•&nbsp; [Yug3737](https://github.com/Yug3737) ||
+| [Project Green](https://github.com/HappyCoderHackathons/Project-Green) | [Kent Hack Enough 2024](https://devpost.com/software/project-green-1hr4kv) | Apr 20–21, 2024 | [aturnisk](https://devpost.com/aturnisk) &nbsp;•&nbsp; [BKliskey98](https://github.com/BKliskey98) &nbsp;•&nbsp; [IanRohrbacher](https://github.com/IanRohrbacher) &nbsp;•&nbsp; [schutzm26](https://github.com/schutzm26) &nbsp;•&nbsp; [YoyoJesus](https://github.com/YoyoJesus) ||
