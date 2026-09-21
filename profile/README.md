@@ -2,6 +2,8 @@
 
 | Project | Hackathon |
 |:-|-:|
+| Money Mirror | Steelhacks XII 2026 |
+| Holotrace | Steelhacks XII 2026 |
 | CavePaint.NET | Kent Hack Enough 2026 |
 | Spar | FalconHacks with MongoDB 2026 |
 | Trially | RocketHacks 2026 |
@@ -14,5 +16,3 @@
 | EduSynapse | Kent Hack Enough 2025 |
 | Snap and Serve | HackDearborn 3 2024 |
 | Project Green | Kent Hack Enough 2024 |
-| Money Mirror | Steelhacks XII 2026 |
-| Holotrace | Steelhacks XII 2026 |
