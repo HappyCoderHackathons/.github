@@ -2,6 +2,7 @@
 
 | Project | Hackathon | Date | Team Members |
 |:-:|:-|:-:|:-|
+| [Sending-Stone](https://github.com/happyCoderHackathons/sending-stone) | [HackDearborn 2026](https://devpost.com/software/sending-stone) | Oct 3-4, 2026 | [GoatmanWaffles](https://github.com/GoatmanWaffles) &nbsp;•&nbsp; [IanRohrbacher](https://github.com/IanRohrbacher) &nbsp;•&nbsp; [tetkacheva](https://github.com/tetkacheva) &nbsp;•&nbsp; [Beleebs](https://github.com/Beleebs) |
 | [Divvy](https://github.com/HappyCoderHackathons/Divvy) | [HackDearborn 2026](https://devpost.com/software/divvy-vjlw12) | Oct 3-4, 2026 | [AndrewRoddy](https://github.com/AndrewRoddy) &nbsp;•&nbsp; [MoonShadow2](https://github.com/moonshadow2) &nbsp;•&nbsp; [Monster0506](https://github.com/Monster0506) &nbsp;•&nbsp; [Sumedh-Joshi](https://github.com/Sumedh-Joshi) |
 | [Money Mirror](https://github.com/HappyCoderHackathons/MoneyMirror) | [SteelHacks XIII 2026](https://devpost.com/software/pittmoney) | Sep 19-20, 2026 | [AndrewRoddy](https://github.com/AndrewRoddy) &nbsp;•&nbsp; [Beleebs](https://github.com/Beleebs) &nbsp;•&nbsp; [Monster0506](https://github.com/Monster0506) &nbsp;•&nbsp; [Sumedh-Joshi](https://github.com/Sumedh-Joshi) |
 | [Holotrace](https://github.com/HappyCoderHackathons/holotrace) | [SteelHacks XIII 2026](https://devpost.com/software/holotrace) | Sep 19-20, 2026 | [EnderHubris](https://github.com/EnderHubris) &nbsp;•&nbsp; [IanRohrbacher](https://github.com/IanRohrbacher) &nbsp;•&nbsp; [moonshadow2](https://github.com/moonshadow2) &nbsp;•&nbsp; [YoyoJesus](https://github.com/YoyoJesus) |
