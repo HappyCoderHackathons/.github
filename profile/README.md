@@ -2,6 +2,7 @@
 
 | Project | Hackathon | Date | Team Members |
 |:-:|:-|:-:|:-|
+| [Inquisitor](https://github.com/HappyCoderHackathons/Inquisitor) | [Hack The Nest 2026]([https://hack.osu.edu/2026](https://hackthenest.tech/)) | Nov 14-15, 2026 | [YoyoJesus](https://github.com/YoyoJesus) &nbsp;•&nbsp; [IanRohrbacher](https://github.com/IanRohrbacher) &nbsp;•&nbsp; [ManOfNeptune27](https://github.com/ManOfNeptune27) &nbsp;•&nbsp; [dadoge217](https://github.com/dadoge217) |
 | [AirChess](https://github.com/HappyCoderHackathons/AirChess) | [HackOHI/O 2026](https://hack.osu.edu/2026) | Oct 24-25, 2026 | [Monster0506](https://github.com/Monster0506) &nbsp;•&nbsp; [AndrewRoddy](https://github.com/AndrewRoddy) &nbsp;•&nbsp; [Sumedh-Joshi](https://github.com/Sumedh-Joshi) |
 | [Dependency Domino](https://github.com/HappyCoderHackathons/Dependency-Domino) | [HackOHI/O 2026](https://hack.osu.edu/2026) | Oct 24-25, 2026 | [YoyoJesus](https://github.com/YoyoJesus) &nbsp;•&nbsp; [MoonShadow2](https://github.com/moonshadow2) &nbsp;•&nbsp; [ManOfNeptune27](https://github.com/ManOfNeptune27) |
 | [FPVcognitinon](https://github.com/HappyCoderHackathons/FPVcognitinon) | [HackDearborn 2026](https://devpost.com/software/sending-stone) | Oct 3-4, 2026 | [mileskeffer](https://github.com/mileskeffer) &nbsp;•&nbsp; [EnderHubris](https://github.com/EnderHubris) &nbsp;•&nbsp; [ManOfNeptune27](https://github.com/ManOfNeptune27) |
