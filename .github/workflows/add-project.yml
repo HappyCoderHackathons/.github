@@ -1,0 +1,67 @@
+name: Add Project
+
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: "Project name (e.g. BluQ)"
+        required: true
+      project_url:
+        description: "Project repo URL (e.g https://github.com/HappyCoderHackathons/spiral)"
+        required: true
+      hackathon:
+        description: "Hackathon name (e.g. HackDearborn: Rewind Reality)"
+        required: true
+      hackathon_url:
+        description: "Hackathon URL (optional) (e.g https://devpost.com/software/holotrace)"
+        required: false
+      date:
+        description: "Date or date range (e.g. 'Mar 21, 2026', 'Oct 24-25, 2026' or 'Oct 31-Nov 1, 2026')"
+        required: true
+      members:
+        description: "Comma-separated GitHub URLs, any order (use name=URL for non-GitHub links) (e.g. aturnisk=https://devpost.com/aturnisk,https://github.com/IanRohrbacher or aturnisk=https://devpost.com/aturnisk,IanRohrbacher)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: portfolio-readme
+  cancel-in-progress: false
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Add entry and organize table
+        env:
+          PROJECT: ${{ inputs.project }}
+          PROJECT_URL: ${{ inputs.project_url }}
+          HACKATHON: ${{ inputs.hackathon }}
+          HACKATHON_URL: ${{ inputs.hackathon_url }}
+          DATE: ${{ inputs.date }}
+          MEMBERS: ${{ inputs.members }}
+        run: |
+          python .github/scripts/portfolio.py add \
+            --project "$PROJECT" \
+            --project-url "$PROJECT_URL" \
+            --hackathon "$HACKATHON" \
+            --hackathon-url "$HACKATHON_URL" \
+            --date "$DATE" \
+            --members "$MEMBERS"
+
+      - name: Commit and push
+        env:
+          PROJECT: ${{ inputs.project }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git commit -m "Add project $PROJECT"
+          git push

@@ -1,0 +1,76 @@
+name: Edit Project
+
+on:
+  workflow_dispatch:
+    inputs:
+      current:
+        description: "Current project name, as shown in the table (e.g. Dependency Domino)"
+        required: true
+      project:
+        description: "New project name (leave blank to keep)"
+        required: false
+      project_url:
+        description: "New project repo URL (leave blank to keep)"
+        required: false
+      hackathon:
+        description: "New hackathon name (leave blank to keep)"
+        required: false
+      hackathon_url:
+        description: "New hackathon URL (leave blank to keep, '-' to remove the link)"
+        required: false
+      date:
+        description: "New date or date range, e.g. 'Oct 24-25, 2026' (leave blank to keep)"
+        required: false
+      members:
+        description: "New full member list, replaces the old one (leave blank to keep) (e.g. aturnisk=https://devpost.com/aturnisk,IanRohrbacher)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: portfolio-readme
+  cancel-in-progress: false
+
+jobs:
+  edit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Edit entry and organize table
+        env:
+          CURRENT: ${{ inputs.current }}
+          PROJECT: ${{ inputs.project }}
+          PROJECT_URL: ${{ inputs.project_url }}
+          HACKATHON: ${{ inputs.hackathon }}
+          HACKATHON_URL: ${{ inputs.hackathon_url }}
+          DATE: ${{ inputs.date }}
+          MEMBERS: ${{ inputs.members }}
+        run: |
+          python .github/scripts/portfolio.py edit \
+            --current "$CURRENT" \
+            --project "$PROJECT" \
+            --project-url "$PROJECT_URL" \
+            --hackathon "$HACKATHON" \
+            --hackathon-url "$HACKATHON_URL" \
+            --date "$DATE" \
+            --members "$MEMBERS"
+
+      - name: Commit and push
+        env:
+          CURRENT: ${{ inputs.current }}
+        run: |
+          if git diff --quiet; then
+            echo "No changes to the table."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git commit -m "Edit project $CURRENT"
+          git push
